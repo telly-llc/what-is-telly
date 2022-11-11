@@ -144,6 +144,25 @@ Absolutely! Just set `TELLY_SHOW_ME` to a truthy value like `true` or `1` and Te
 $ TELLY_SHOW_ME=1 python3 foo.py
 ```
 
+### How can I opt in or out of a single project's telemetry?
+
+You can opt in or out of a single project's telemetry using the telly CLI methods:
+ * Opt in: `python3 -m telly optin [project-uuid]`
+ * Opt out: `python3 -m telly optout [project-uuid]`
+
+These commands edit the `.telly_optin` file in your home directory.  You can always edit it manually or 
+list its contents like this: `$ cat ~/.telly_optin`
+
+### How can I enable or disable Telly completely?
+
+If you want to disable or enable Telly for all projects, you can use the commands below:
+*  Enable: `python3 -m telly enable`
+ * Disable: `python3 -m telly disable`
+
+These commands create or removes the `.telly_disable` file in your home directory.  You can always
+create or delete it manually.
+
+
 ### Want to learn more?
 Want to learn more about using Telly? Do you have an idea for new features? Just want to hear our voice?
 
