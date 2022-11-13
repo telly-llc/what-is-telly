@@ -113,15 +113,15 @@ This software may collect information about you and your use of the software, wh
 partner, Telly. You can learn more about how we use this information at our website here: [your privacy notice]
 ```
 
-## Verifying telly distributions with sigstore
-We use sigstore to sign telly distributions.  You can use sigstore to verify the distributions; for example, you can check our Python distribution using the commands below:
+## Verifying Telly distributions with sigstore
+We use sigstore to sign Telly distributions.  You can use sigstore to verify the distributions; for example, you can check our Python distribution using the commands below:
 ```shell
 $ pip3 install sigstore
 $ python -m sigstore verify telly.py 
 ```
 
 
-### How does telly work (and when doesn't it)?
+### How does Telly work (and when doesn't it)?
 For Python and Node, Telly works by introspecting your module, decorating classes and methods, incrementing a global counter, 
 and then spawning an async process to send the data to Telly when configured.  Telly works in almost all situations 
 where Python and Node execute, including on CLI/REPL, Jupyter notebook, web apps, script, or a module imported from another 
@@ -146,7 +146,7 @@ $ TELLY_SHOW_ME=1 python3 foo.py
 
 ### How can I opt in or out of a single project's telemetry?
 
-You can opt in or out of a single project's telemetry using the telly CLI methods:
+You can opt in or out of a single project's telemetry using the Telly CLI methods:
  * Opt in: `python3 -m telly optin [project-uuid]`
  * Opt out: `python3 -m telly optout [project-uuid]`
 
