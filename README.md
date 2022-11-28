@@ -6,8 +6,6 @@
 
 ### simple, privacy-friendly usage statistics for your open source software
 
-
-
 ## What is Telly and how can I (not) use it?
 
 Telly is a telemetry platform designed to make it easy for open source package authors to improve their software while protecting their users' privacy.
@@ -15,6 +13,11 @@ Telly is a telemetry platform designed to make it easy for open source package a
 If you develop software, you can use Telly to start collecting daily active user counts and feature usage statistics with just one line of code.  Our dashboard and hosted infrastructure are designed with principles like Privacy-by-Design and differential privacy to help you meet compliance requirements (like GDPR or the EU Privacy Directive).  
 
 If you use software, you might have noticed a telemetry disclaimer or activity from Telly.  This page can help you understand how Telly works so you can decide whether you or your organization is comfortable with its usage.  If you decide you want to opt out of Telly for a specific package or disable it completely, instructions are provided below.
+
+## I'm just a software user. What does this mean?
+**We have another information page designed specifically for end-users - [USERS.md](USERS.md).**  
+
+You might prefer reading that one instead of the rest of this.
 
 ## Why is Telly useful?
 Building open source software is hard. Whether you're a commercial open source company or just sharing a hobby project, it can be nearly impossible to answer questions like:
